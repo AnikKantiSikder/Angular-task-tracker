@@ -3,5 +3,8 @@
   <h1>{{title}}</h1>
 
   <!-- Embeded the button -->
-  <app-button color="green" text="Add"></app-button>
+  <app-button color="green" text="Add"
+   (btnClick)="toggleAddTask()">
+
+  </app-button>
 </header>
